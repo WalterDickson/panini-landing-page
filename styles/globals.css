@@ -11,8 +11,27 @@ a {
   text-decoration: none;
 }
 
+.align-items-center {
+  align-items: center!important;
+  
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 75px;
+  padding-right: 75px;
+}
+
 * {
   box-sizing: border-box;
+}
+
+section {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  padding-left: 75px;
+  padding-right: 75px;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -21,6 +40,6 @@ a {
   }
   body {
     color: white;
-    background: black;
+    background: silver;
   }
 }
